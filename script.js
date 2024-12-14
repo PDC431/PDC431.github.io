@@ -9,7 +9,7 @@ class Ball {
         this.effect = effect;
         this.x = this.effect.width * 0.5;
         this.y = this.effect.height * 0.5;
-        this.radius = 16;
+        this.radius = 64;
         this.speedX = Math.random() * 0.5;
         this.speedY = Math.random() * 0.5;
     }
